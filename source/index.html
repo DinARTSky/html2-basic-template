@@ -72,15 +72,16 @@
         <button class="slider__control--next" type="button">
           <span class="visually-hidden">Следующий товар</span>
         </button>
-        <div class="slider__image"></div>
+
         <div class="slider__product slider-product">
+          <div class="slider__image"></div>
           <span class="slider-product__bage title-bage">Новинка!</span>
           <h2 class="slider-product__title">Декаф Флэт Уайт</h2>
           <p class="slider-product__description">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
           <div class="slider-product__buy">
             <span class="slider-product__oldprice">295₽</span>
             <span class="slider-product__price">225₽</span>
-            <button class="slider-product__order"></button>
+            <button class="slider-product__order">Заказать</button>
           </div>
         </div>
 
@@ -182,30 +183,65 @@
 
           <!--Поле страна производитель-->
           <fieldset class="form__group form__group--country">
-            <ul class="form__list list-reset">
-              <li class="form__item">
-                <input class="form__input-control form__input-control--checkbox" type="checkbox" name="brazil" id="brazil" value="brazil" checked>
-                <label class="form__label" for="brazil">Бразилия</label>
-              </li>
-              <li class="form__item">
-                <input class="form__input-control form__input-control--checkbox" type="checkbox" name="ethiopia" id="ethiopia" value="ethiopia">
-                <label class="form__label" for="ethiopia">Эфиопия</label>
-              </li>
-              <li class="form__item">
-                <input class="form__input-control form__input-control--checkbox" type="checkbox" name="colombia" id="colombia" value="colombia">
-                <label class="form__label" for="colombia">Колумбия</label>
-              </li>
-              <li class="form__item">
-                <input class="form__input-control form__input-control--checkbox" type="checkbox" name="costa-rica" id="costa-rica" value="costa-rica">
-                <label class="form__label" for="costa-rica">Коста-Рика</label>
-              </li>
-              <li class="form__item">
-                <input class="form__input-control form__input-control--checkbox" type="checkbox" name="peru" id="peru" value="peru">
-                <label class="form__label form__label--disabled" for="peru">Перу</label>
+            <div class="form__container continer">
+              <h2 class="form__title">Страна произрастания</h2>
+              <ul class="form__list list-reset">
+                <li class="form__item">
+                  <input class="form__input-control form__input-control--checkbox" type="checkbox" name="brazil" id="brazil" value="brazil" checked>
+                  <label class="form__label" for="brazil">Бразилия</label>
+                </li>
+                <li class="form__item">
+                  <input class="form__input-control form__input-control--checkbox" type="checkbox" name="ethiopia" id="ethiopia" value="ethiopia">
+                  <label class="form__label" for="ethiopia">Эфиопия</label>
+                </li>
+                <li class="form__item">
+                  <input class="form__input-control form__input-control--checkbox" type="checkbox" name="colombia" id="colombia" value="colombia">
+                  <label class="form__label" for="colombia">Колумбия</label>
+                </li>
+                <li class="form__item">
+                  <input class="form__input-control form__input-control--checkbox" type="checkbox" name="costa-rica" id="costa-rica" value="costa-rica">
+                  <label class="form__label" for="costa-rica">Коста-Рика</label>
+                </li>
+                <li class="form__item">
+                  <input class="form__input-control form__input-control--checkbox" type="checkbox" name="peru" id="peru" value="peru">
+                  <label class="form__label form__label--disabled" for="peru">Перу</label>
+                </li>
+              </ul>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__group form__group--submit-reset">
+            <div class="form__container continer">
+              <h2 class="form__title visually-hidden">кнопки применить и сбросить</h2>
+              <button class="form__button button form__button--submit" type="submit">Применить</button>
+              <button class="form__button button form__button--reset" type="reset">Сбросить</button>
+          </fieldset>
+        </form>
+        <form class="catalog__sorting sorting">
+          <fieldset class="sorting__group">
+            <h2 class="sorting__title">Сортировка:</h2>
+            <ul class="sorting__list">
+              <li class="sortiing__item">
+                <button class="sorting-button sorting-button--default sorting-button--active" type="button">по умолчанию</button>
               </li>
             </ul>
           </fieldset>
         </form>
+        <ul class="catalog-list product">
+          <li class="product__item">
+              <div class="product__image"></div>
+              <h2 class="product__title">Декаф Флэт Уайт</h2>
+              <p class="product__description">Кофе без кофеина из Эфиопии с натуральным фермерским молоком</p>
+              <div class="product__buy">
+                <span class="product__price">225₽</span>
+                <button class="product__order">В корзину</button>
+              </div>
+
+
+
+
+          </li>
+        </ul>
 
       </section>
 
