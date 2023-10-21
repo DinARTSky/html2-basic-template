@@ -1,7 +1,14 @@
 /* GLOBAL */
-@import "global/variables";
-@import "global/global";
-@import "global/fonts";
+/*@import "global/variables.scss";*/
+@import "global/global.scss";
+@import "global/fonts.scss";
+@import "global/list-reset.scss";
+@import "global/visually-hidden.scss";
 
 /* BLOCKS */
-@import "blocks/header";
+@import "blocks/header.scss";
+@import "blocks/container.scss";
+@import "blocks/navigation.scss";
+@import "blocks/slider.scss";
+@import "blocks/title.scss";
+@import "blocks/button.scss";

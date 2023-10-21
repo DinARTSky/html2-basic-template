@@ -6,8 +6,8 @@
 
   font-display: swap;
   src:
-    url("../fonts/montserrat.woff2") format("woff2"),
-    url("../fonts/montserrat.woff") format("woff");
+    url("/source/fonts/montserrat.woff2") format("woff2"),
+    url("/source/fonts/montserrat.woff") format("woff");
 }
 
 @font-face {
@@ -17,6 +17,6 @@
 
   font-display: swap;
   src:
-    url("../fonts/montserratbold.woff2") format("woff2"),
-    url("../fonts/montserratbold.woff") format("woff");
+    url("/source/fonts/montserratbold.woff2") format("woff2"),
+    url("/source/fonts/montserratbold.woff") format("woff");
 }

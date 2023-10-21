@@ -17,10 +17,11 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-width: 320px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   font-family: "Montserrat", "Arial", sans-serif;
-  color: #444444;
+  color: #333333;
 }
 
 img {
